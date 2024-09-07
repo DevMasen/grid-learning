@@ -1,0 +1,17 @@
+.grid-container{
+    background-color: blueviolet;
+    padding: 0.5rem;
+    display: grid;
+    grid-gap: 0.5rem;
+    /* grid-template-columns: repeat(4,auto); */
+    /* grid-template-rows: 3rem 10vh 160px; */
+    grid-template: 50px 50rem 50rex 50svh 50lvh 50vh/1in 96px 10rem 30rem;
+
+}
+.grid-item{
+    background-color: rgb(200, 255, 0);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

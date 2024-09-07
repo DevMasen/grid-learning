@@ -1,0 +1,39 @@
+body{
+    background-color: blueviolet;
+    margin: 2rem 3rem;
+    display: grid;
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    /* grid-template-rows: 8rem 12rem 10rem; */
+    /* grid-template-areas: "H H H" "M . A" "F F F"; */
+
+    grid-template: "H H H" 9rem "M . A" 12rem "F F F" 10rem / 2fr 1fr 1fr ;
+    grid-gap: 0.5rem;
+}
+header{
+    background-color: rgb(0, 252, 84);
+    grid-area: H;
+}
+main{
+    background-color: crimson;
+    grid-area: M;
+}
+aside{
+    background-color: brown;
+    grid-area: A;
+}
+footer{
+    background-color: aqua;
+    grid-area: F;
+}
+
+header,main,aside,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}

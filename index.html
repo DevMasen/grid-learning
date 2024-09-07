@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MC.Donald Food Delivery</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link rel="script" href="/js/script.js" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <div class="navigation__left">
+          <img class="navigation_logo" src="/img/lgo.svg" alt="LOGO" />
+          <ul class="navigation_list">
+            <li><a href="#">Homepage</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Sale off</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navigation__right">
+          <a class="navigation_sign-in" href="#">Sign in</a>
+          <a class="navigation_log-in" href="#">Log in</a>
+        </div>
+        <div class="navigation__menu">
+          <input id="checkbox" type="checkbox" hidden />
+          <label for="checkbox">
+            <img class="menu-icon" src="/img/Burger.svg" alt="!" />
+            <img class="menu-close" src="/img/close.svg" alt="!" />
+          </label>
+          <ul class="navigation_list">
+            <li><a href="#">Homepage</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Sale off</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <section class="header_bottom">
+          <div class="header_bottom__left">
+            <div class="left_text">
+              <h1>Order your favorite food</h1>
+              <p>
+                Hamburger has many flavors, have you tried Cheese Beef
+                Hamburger?
+              </p>
+            </div>
+            <div class="left_order">
+              <div class="left_order_top">
+                <span>Total Order</span>
+                <span>:</span>
+                <span>$5.39</span>
+              </div>
+              <div class="left_order_bottom">
+                <div class="left_order_bottom_count">
+                  <button>
+                    <img class="plus" src="/img/plus.svg" alt="!" />
+                  </button>
+                  <span>3</span>
+                  <button>
+                    <img class="minus" src="/img/minus.svg" alt="!" />
+                  </button>
+                </div>
+                <button class="left_order_bottom_button">
+                  <img src="/img/ShoppingBasketGrey.svg" alt="!" />
+                  <span>Order now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="header_bottom__right">
+            <img
+              class="right_img"
+              src="/img/HeaderBottomHamburger.png"
+              alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+            />
+            <div class="header_bottom__delivery">
+              <div class="delivery_top">
+                <img class="top_alarm" src="/img/Alarm.svg" alt="!" />
+                <span class="top_text">Delivery</span>
+              </div>
+              <span class="delivery_bottom">30 mins</span>
+            </div>
+          </div>
+          <div class="left_order_2">
+            <div class="left_order_top">
+              <span>Total Order</span>
+              <span>:</span>
+              <span>$5.39</span>
+            </div>
+            <div class="left_order_bottom">
+              <div class="left_order_bottom_count">
+                <button>
+                  <img class="plus" src="/img/plus.svg" alt="!" />
+                </button>
+                <span>3</span>
+                <button>
+                  <img class="minus" src="/img/minus.svg" alt="!" />
+                </button>
+              </div>
+              <button class="left_order_bottom_button">
+                <img src="/img/ShoppingBasketGrey.svg" alt="!" />
+                <span>Order now</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="menu">
+          <div class="menu_top">
+            <h2 class="titles">
+              MENU
+              <div class="titles_underline"></div>
+            </h2>
+            <div class="menu__categories">
+              <button class="category___button">
+                <img src="/img/cat1.svg" alt="!" />
+                <span>Best seller</span>
+              </button>
+              <button class="category___button">
+                <img src="/img/cat2.svg" alt="!" />
+                <span>Hamburger</span>
+              </button>
+              <button class="category___button">
+                <img src="/img/cat3.svg" alt="!" />
+                <span>Drink</span>
+              </button>
+              <button class="category___button">
+                <img src="/img/cat4.svg" alt="!" />
+                <span>Dessert</span>
+              </button>
+              <button class="category___button">
+                <img src="/img/cat5.svg" alt="!" />
+                <span>Fried chicken</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="menu_bottom">
+            <div class="menu__food_container">
+              <div class="food___part">
+                <img class="sale____star" src="/img/Star.svg" alt="SALE" />
+                <div class="food____img">
+                  <img
+                    src="/img/Menu1.png"
+                    alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+                  />
+                </div>
+                <div class="food____info">
+                  <div class="food____info_top">
+                    <div class="info_top_text">
+                      <h5>Cheese Beef Hamburger</h5>
+                      <p>fried chicken balls, french fries</p>
+                    </div>
+                    <div class="info_top_stars">
+                      <div class="stars_container">
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                      </div>
+                      <span>(5)</span>
+                    </div>
+                  </div>
+                  <div class="food____info_bottom">
+                    <span>5.39$</span>
+                    <button>
+                      <img src="/img/red_basket.svg" alt="!" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="food___part">
+                <img class="sale____star" src="/img/Star.svg" alt="SALE" />
+                <div class="food____img">
+                  <img
+                    src="/img/Menu2.png"
+                    alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+                  />
+                </div>
+                <div class="food____info">
+                  <div class="food____info_top">
+                    <div class="info_top_text">
+                      <h5>Combo funny</h5>
+                      <p>fried chicken balls, french fries</p>
+                    </div>
+                    <div class="info_top_stars">
+                      <div class="stars_container">
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                      </div>
+                      <span>(5)</span>
+                    </div>
+                  </div>
+                  <div class="food____info_bottom">
+                    <span>10.3$</span>
+                    <button>
+                      <img src="/img/red_basket.svg" alt="!" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="food___part">
+                <img class="sale____star" src="/img/Star.svg" alt="SALE" />
+                <div class="food____img">
+                  <img
+                    src="/img/Menu3.png"
+                    alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+                  />
+                </div>
+                <div class="food____info">
+                  <div class="food____info_top">
+                    <div class="info_top_text">
+                      <h5>‌Chicken with Spicy Sauce</h5>
+                      <p>chili garlic sauce, black pepper sauce</p>
+                    </div>
+                    <div class="info_top_stars">
+                      <div class="stars_container">
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                      </div>
+                      <span>(5)</span>
+                    </div>
+                  </div>
+                  <div class="food____info_bottom">
+                    <span>7.2$</span>
+                    <button>
+                      <img src="/img/red_basket.svg" alt="!" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="food___part">
+                <img class="sale____star" src="/img/Star.svg" alt="SALE" />
+                <div class="food____img">
+                  <img
+                    src="/img/Menu4.png"
+                    alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+                  />
+                </div>
+                <div class="food____info">
+                  <div class="food____info_top">
+                    <div class="info_top_text">
+                      <h5>Salad mixed vinegar</h5>
+                      <p>Salad, vinegar, tomato</p>
+                    </div>
+                    <div class="info_top_stars">
+                      <div class="stars_container">
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                      </div>
+                      <span>(5)</span>
+                    </div>
+                  </div>
+                  <div class="food____info_bottom">
+                    <span>5.4$</span>
+                    <button>
+                      <img src="/img/red_basket.svg" alt="!" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="food___part">
+                <img class="sale____star" src="/img/Star.svg" alt="SALE" />
+                <div class="food____img">
+                  <img
+                    src="/img/Menu5.png"
+                    alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+                  />
+                </div>
+                <div class="food____info">
+                  <div class="food____info_top">
+                    <div class="info_top_text">
+                      <h5>Chicken burger</h5>
+                      <p>fried chicken</p>
+                    </div>
+                    <div class="info_top_stars">
+                      <div class="stars_container">
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                      </div>
+                      <span>(5)</span>
+                    </div>
+                  </div>
+                  <div class="food____info_bottom">
+                    <span>5.39$</span>
+                    <button>
+                      <img src="/img/red_basket.svg" alt="!" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="food___part">
+                <img class="sale____star" src="/img/Star.svg" alt="SALE" />
+                <div class="food____img">
+                  <img
+                    src="/img/Menu6.png"
+                    alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+                  />
+                </div>
+                <div class="food____info">
+                  <div class="food____info_top">
+                    <div class="info_top_text">
+                      <h5>Lipton</h5>
+                      <p></p>
+                    </div>
+                    <div class="info_top_stars">
+                      <div class="stars_container">
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                        <img src="/img/food_stars.svg" alt="!" />
+                      </div>
+                      <span>(5)</span>
+                    </div>
+                  </div>
+                  <div class="food____info_bottom">
+                    <span>2.8$</span>
+                    <button>
+                      <img src="/img/red_basket.svg" alt="!" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="menu__see_all"><a href="#">See all</a></p>
+          </div>
+        </section>
+
+        <section class="sale-off">
+          <h2 class="sale-off_text titles">
+            SALE OFF
+            <div class="titles_underline"></div>
+          </h2>
+          <div class="sale-off_grid_container">
+            <div class="sale-off_grid_item">
+              <img
+                class="sale-off_img"
+                src="/img/saleOff1.png"
+                alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+              />
+              <div class="sale-off_text-box">
+                <div class="text-box_category">
+                  <p class="text-box_category_p1">Fast food</p>
+                  <div class="text-box_category_line"></div>
+                </div>
+
+                <h3 id="text-box_h3">combo funny</h3>
+                <p class="text-box_p2">buy 1 funny combo get 1 coca cola</p>
+                <div class="text-box_price">
+                  <del>10.3$</del>
+                  <span>10.3$</span>
+                </div>
+              </div>
+              <button class="sale-off_button">
+                <img src="/img/ShoppingBasketGrey.svg" alt="!" />
+                <img src="/img/ShoppingBasketWhite.svg" alt="!" />
+                <span>Order now</span>
+              </button>
+            </div>
+
+            <div class="sale-off_grid_item">
+              <img
+                class="sale-off_img"
+                src="/img/saleOff2.png"
+                alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+              />
+              <div class="sale-off_text-box">
+                <div class="text-box_category">
+                  <p class="text-box_category_p1">Fast food</p>
+                  <div class="text-box_category_line"></div>
+                </div>
+                <h3>salad mixed vinegar</h3>
+                <p class="text-box_p2"></p>
+                <div class="text-box_price">
+                  <del>10.3$</del>
+                  <span>3.4$</span>
+                </div>
+              </div>
+              <button class="sale-off_button">
+                <img src="/img/ShoppingBasketGrey.svg" alt="!" />
+                <img src="/img/ShoppingBasketWhite.svg" alt="!" />
+                <span>Order now</span>
+              </button>
+            </div>
+
+            <div class="sale-off_grid_item">
+              <img
+                class="sale-off_img"
+                src="/img/saleOff3.png"
+                alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+              />
+              <div class="sale-off_text-box">
+                <div class="text-box_category">
+                  <p class="text-box_category_p1">House</p>
+                  <div class="text-box_category_line"></div>
+                </div>
+                <h3>chicken bugger</h3>
+                <p class="text-box_p2">fried chicken</p>
+                <div class="text-box_price">
+                  <del>8.3$</del>
+                  <span>6.3$</span>
+                </div>
+              </div>
+              <button class="sale-off_button">
+                <img src="/img/ShoppingBasketGrey.svg" alt="!" />
+                <img src="/img/ShoppingBasketWhite.svg" alt="!" />
+                <span>Order now</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Container End -->
+      <section class="mobile-app">
+        <div class="mobile-app_left">
+          <img
+            class="left_mobile-img"
+            src="/img/MobileAppImg.png"
+            alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+          />
+          <div class="left_boxes" id="ch1">
+            <img src="/img/UsePromotionsIcon.svg" alt="!" />
+            <span>Use Promotions</span>
+          </div>
+          <div class="left_boxes" id="ch2">
+            <img src="/img/NewsIcon.svg" alt="!" />
+            <span>News</span>
+          </div>
+          <div class="left_boxes" id="ch3">
+            <img src="/img/FoodsIcon.svg" alt="!" />
+            <span>Foods</span>
+          </div>
+          <div class="left_boxes" id="ch4">
+            <img src="/img/RestaurantsIcon.svg" alt="!" />
+            <span>Restaurants</span>
+          </div>
+        </div>
+
+        <div class="mobile-app_right">
+          <p class="right_p1">Exclusive offers and more</p>
+          <h3>MCDONALD’S MOBILE APP</h3>
+          <p class="right_p2 text-box_p2">
+            As a global No. 1 fast food brand, McDonald's wishes to bring
+            customers not only delicious and hygienic food of international
+            standards but also the best service experience.
+          </p>
+          <div class="right_buttons-container">
+            <button class="right_buttons-item">
+              <img
+                class="right_buttons-item_img"
+                src="/img/AppleIcon.svg"
+                alt="!"
+              />
+              <div class="right_buttons-item_text">
+                <span>Download on the</span>
+                <span>App Store</span>
+              </div>
+            </button>
+            <button class="right_buttons-item">
+              <img
+                class="right_buttons-item_img"
+                src="/img/GoogleplayIcon.svg"
+                alt="!"
+              />
+              <div class="right_buttons-item_text">
+                <span>Download on the</span>
+                <span>Google Play</span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Container Start -->
+      <div class="container">
+        <section class="location">
+          <div class="location_text">
+            <h3>FIND A FOODELI STORE NEAR YOU</h3>
+            <p>see the convenience store address with you most</p>
+          </div>
+          <form class="location_search-bar" action="">
+            <input
+              class="search-bar_input"
+              type="text"
+              height="30px"
+              placeholder="Typing location"
+            />
+            <button class="search-bar_button">
+              <span>See on map</span>
+            </button>
+          </form>
+          <img
+            class="location_salad-img"
+            src="/img/LocationSalad.png"
+            alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+          />
+          <img
+            class="location_burger-img"
+            src="/img/LocationBurger.png"
+            alt="YOUR BROWSER DOES NOT SUPPORT PNG FORMAT!"
+          />
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_social">
+        <div class="social_logo">
+          <img src="/img/FooterLogo.svg" alt="!" />
+          <h5>Mc Donald’s</h5>
+        </div>
+        <div class="social_links">
+          <a href="#"><img src="/img/Twitter.svg" alt="!" /></a>
+          <a href="#"><img src="/img/Facebook.svg" alt="!" /></a>
+          <a href="#"><img src="/img/Messenger.svg" alt="!" /></a>
+        </div>
+      </div>
+      <div class="footer_text-box">
+        <div class="footer_useful-links">
+          <h6 class="footer_titles">USEFUL LINKS</h6>
+          <ul class="useful-links_list">
+            <li><a href="#" class="useful-links_item">Homepage</a></li>
+            <li><a href="#" class="useful-links_item">Menu</a></li>
+            <li><a href="#" class="useful-links_item">Sale off</a></li>
+            <li><a href="#" class="useful-links_item">News</a></li>
+            <li><a href="#" class="useful-links_item">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer_opening-hour">
+          <h6 class="footer_titles">OPENING HOUR</h6>
+          <ul class="opening-hour_list">
+            <li>Monday - Friday:9:00 - 23:00h</li>
+            <li>Saturday:09:00 - 16:00h</li>
+            <li>Sunday:12:00 - 18:00h</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

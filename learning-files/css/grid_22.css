@@ -1,0 +1,19 @@
+.container{
+    background-color: blueviolet;
+    /* display: grid; */
+    display: inline-grid;
+    margin: 3rem auto;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,200px);
+    grid-gap: 0.5rem;
+    padding: 0.5rem;
+}
+.item{
+    background-color: brown;
+    font-size: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

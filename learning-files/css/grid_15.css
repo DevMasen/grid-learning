@@ -1,0 +1,66 @@
+.body{
+    background-color: #555;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: blueviolet;
+    padding: 0.4rem;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(6,auto);
+    grid-template-areas: "i1 i1 i2 i2 i2 i2" "i1 i1 i3 i3 i5 i5"
+                         "i1 i1 i4 i4 i5 i5" "i6 i6 i6 i6 i5 i5"
+                         "i7 i7 i8 i8 i8 i8" "i7 i7 i9 i9 i11 i11"
+                         "i7 i7 i10 i10 i11 i11"
+                         "i12 i12 i12 i12 i11 i11";
+    
+}
+.item{
+    background-color: rgb(0, 255, 170);
+    font-size: 3rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i1{
+    grid-area: i1;
+}
+.i2{
+    grid-area: i2;
+}
+.i3{
+    grid-area: i3;
+}
+.i4{
+    grid-area: i4;
+}
+.i5{
+    grid-area: i5;
+}
+.i6{
+    grid-area: i6;
+}
+.i7{
+    grid-area: i7;
+}
+.i8{
+    grid-area: i8;
+}
+.i9{
+    grid-area: i9;
+}
+.i10{
+    grid-area: i10;
+}
+.i11{
+    grid-area: i11;
+}
+.i12{
+    grid-area: i12;
+}
